@@ -3,14 +3,7 @@ import { useLoaderData } from "react-router-dom";
 
 function Github() {
   const data2 = useLoaderData();
-//   const [data, setData] = useState(0);
-//   useEffect(() => {
-//     fetch("https://api.github.com/users/karanveer43f")
-//       .then((res) => res.json())
-//       .then((data) => {
-//         setData(data);
-//       });
-//   }, []);
+
   return (
     <>
       <div className="text-center m-4 bg-gray-600 text-white text-3xl">
